@@ -1,11 +1,11 @@
 {
-  "name": "simplechatapp",
+  "name": "simplechatapp", // nome do app chat simples
   "version": "1.0.0",
-  "description": "Simple chat app built with node.js and socket.io",
+  "description": "Simple chat app built with node.js and socket.io", // ultilização do framework ionic + javascript
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "nodemon app" // ira inicializar o aplicativo
   },
   "repository": {
     "type": "git",
