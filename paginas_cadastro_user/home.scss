@@ -1,0 +1,123 @@
+page-home {<br>
+  ion-content {<br>
+    background: url(../assets/imgs/chat-back.png) no-repeat center center fixed;<br>
+    background-size: cover;<br>
+    height: 100%;<br>
+    overflow: hidden;<br>
+    .item-md, .item-ios {<br>
+      background: none;<br>
+    }<br>
+  }<br>
+  ion-footer {<br>
+    background: white;<br>
+    ion-icon {<br>
+      padding: 10px;<br>
+      font-size: 20px;<br>
+      color: green;<br>
+    }<br>
+  }<br>
+  .chat-status {<br>
+    min-height: 49px;<br>
+    .chat-date {<br>
+      display: block;<br>
+      font-size: 10px;<br>
+      font-style: italic;<br>
+      color: #fff;<br>
+      text-shadow: 0px -1px 0px #222, 0px 1px 0px #aaa;<br>
+      height: 15px;<br>
+      left: 10%;<br>
+      right:10%;<br>
+    }<br>
+    .chat-content-center {<br>
+      padding: 5px 10px;<br>
+      background-color: #e1e1f7;<br>
+      border-radius: 6px;<br>
+      font-size: 12px;<br>
+      color: #555;<br>
+      height: 34px;<br>
+      left: 10%;<br>
+      right:10%;<br>
+    }<br>
+  }<br>
+  .chat-message {<br>
+    width: 80%;<br>
+    min-height: 40px;<br>
+    .right-bubble {<br>
+        position: relative;<br>
+        background: #dcf8c6;<br>
+        border-top-left-radius: .4em;<br>
+      border-bottom-left-radius: .4em;<br>
+      border-bottom-right-radius: .4em;<br>
+      padding: 5px 10px 10px;<br>
+      left: 15%;<br>
+      span.msg-name {<br>
+        font-size: 12px;<br>
+        font-weight: bold;<br>
+        color: green;<br>
+      }<br>
+      span.msg-date {<br>
+        font-size: 10px;<br>
+      }<br>
+    }<p></p>
+<p>    .right-bubble:after {<br>
+        content: '';<br>
+        position: absolute;<br>
+        right: 0;<br>
+        top: 0;<br>
+        width: 0;<br>
+        height: 0;<br>
+        border: 27px solid transparent;<br>
+        border-left-color: #dcf8c6;<br>
+        border-right: 0;<br>
+        border-top: 0;<br>
+        margin-top: -13.5px;<br>
+        margin-right: -27px;<br>
+    }<br>
+    .left-bubble {<br>
+        position: relative;<br>
+        background: #ffffff;<br>
+      border-top-right-radius: .4em;<br>
+      border-bottom-left-radius: .4em;<br>
+      border-bottom-right-radius: .4em;<br>
+      padding: 5px 10px 10px;<br>
+      left: 5%;<br>
+      span.msg-name {<br>
+        font-size: 12px;<br>
+        font-weight: bold;<br>
+        color: blue;<br>
+      }<br>
+      span.msg-date {<br>
+        font-size: 10px;<br>
+      }<br>
+    }</p>
+<p>    .left-bubble:after {<br>
+        content: '';<br>
+        position: absolute;<br>
+        left: 0;<br>
+        top: 0;<br>
+        width: 0;<br>
+        height: 0;<br>
+        border: 27px solid transparent;<br>
+        border-right-color: #ffffff;<br>
+        border-left: 0;<br>
+        border-top: 0;<br>
+        margin-top: -13.5px;<br>
+        margin-left: -27px;<br>
+    }<br>
+  }<br>
+}</p>
+<pre><p>Agora basta executar a aplicação com o comando abaixo e ver como ficou.</p>
+<pre class="brush: php; highlight: [5, 15]; html-script: true">ionic serve -l
+</pre><p></p>
+<p><img src="https://i0.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.43.27.png?resize=386%2C676" alt="" width="386" height="676"></p>
+<p><img src="https://i0.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.43.35.png?resize=381%2C675" alt="" width="381" height="675"></p>
+<p><img src="https://i1.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.43.42.png?resize=382%2C674" alt="" width="382" height="674"></p>
+<p><img src="https://i1.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.43.49.png?resize=384%2C674" alt="" width="384" height="674"></p>
+<p><img src="https://i2.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.43.56.png?resize=386%2C673" alt="" width="386" height="673"></p>
+<p><img src="https://i1.wp.com/blog.cloudspeed.com.br/wp-content/uploads/2018/01/Captura-de-Tela-2018-01-27-às-21.44.09.png?resize=382%2C673" alt="" width="382" height="673"></p>
+<p>Espero que tenham gostado do tutorial. O código fonte da aplicação final está disponível no <a href="https://github.com/coolwather/ionic-firebase-chat">GitHub</a>.<br>
+Obrigado e até a próxima.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Compartilhe isso:</h3><div class="sd-content"><ul><li class="share-twitter"><iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: absolute; visibility: hidden; width: 0px; height: 0px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.d942dbac55d395b6a752976f272a24f6.pt.html#dnt=false&id=twitter-widget-0&lang=pt&original_referer=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F&size=m&text=Construa%20um%20simples%20aplicativo%20de%20chat%20com%20Ionic%203%2C%20Angular%205%20e%20Firebase&time=1574184021087&type=share&url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F&via=coolwather" data-url="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/" frameborder="0"></iframe></li><li class="share-facebook"><div class="fb-share-button" data-href="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/" data-layout="button_count"></div></li><li class="share-linkedin"><div class="linkedin_button"><script type="in/share+init" data-url="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/" data-counter="right"></script></div></li><li class="share-reddit"><div class="reddit_button"><iframe src="https://www.reddit.com/static/button/button1.html?newwindow=true&width=120&url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F&title=Construa%20um%20simples%20aplicativo%20de%20chat%20com%20Ionic%203%2C%20Angular%205%20e%20Firebase" scrolling="no" width="120" height="22" frameborder="0"></iframe></div></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button" href="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/?share=telegram&nb=1" target="_blank" title="Clique para compartilhar no Telegram"><span>Telegram</span></a></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button" href="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/?share=jetpack-whatsapp&nb=1" target="_blank" title="Clique para compartilhar no WhatsApp"><span>WhatsApp</span></a></li><li class="share-skype"><div class="skype-share" data-href="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/" data-lang="en-US" data-style="small" data-source="jetpack"></div></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button" href="https://blog.cloudspeed.com.br/2018/01/27/construa-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase/#print" target="_blank" title="Clique para imprimir"><span>Imprimir</span></a></li><li class="share-pocket"><div class="pocket_button"><div class="pocket-btn"><iframe id="pocket-button-0" allowtransparency="true" scrolling="NO" src="https://widgets.getpocket.com/v1/button?label=pocket&count=horizontal&v=1&url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F&title=Construa%20um%20simples%20aplicativo%20de%20chat%20com%20Ionic%203%2C%20Angular%205%20e%20Firebase%20%E2%80%93%20Guilherme%20Soares&src=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F&r=0.3543388333758204" width="135" height="22" frameborder="0"></iframe></div></div></li><li class="share-end"></li></ul></div></div></div><div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_individual_full_color swp_other_full_color scale-100  scale-" data-min-width="1100" data-float-color="#ffffff" data-float="bottom" data-float-mobile="bottom" data-transition="slide"><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Compartilhar</span></span></span><span class="swp_count" style="transition: padding 0.1s linear 0s;">11</span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Construa+um+simples+aplicativo+de+chat+com+Ionic+3%2C+Angular+5+e+Firebase&url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F" data-link="https://twitter.com/intent/tweet?text=Construa+um+simples+aplicativo+de+chat+com+Ionic+3%2C+Angular+5+e+Firebase&url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F"><span class="swp_count swp_hide" style="transition: padding 0.1s linear 0s;"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Twittar</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_google_plus" data-network="google_plus"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F" data-link="https://plus.google.com/share?url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F"><span class="swp_count swp_hide" style="transition: padding 0.1s linear 0s;"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_google_plus_icon"></i><span class="swp_share">+1</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_linkedin" data-network="linkedin"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F" data-link="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fblog.cloudspeed.com.br%2F2018%2F01%2F27%2Fconstrua-um-simples-aplicativo-de-chat-com-ionic-3-angular-5-e-firebase%2F"><span class="swp_count swp_hide" style="transition: padding 0.1s linear 0s;"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_linkedin_icon"></i><span class="swp_share">Compartilhar</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt"><span class="swp_count " style="transition: padding 0.1s linear 0s;">11 <span class="swp_label">Compart.</span></span></div></div><div class="swp-content-locator"></div>
+<div id="jp-relatedposts" class="jp-relatedposts">
+    <h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+</div>  </pre>
